@@ -1,0 +1,36 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Dosis', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+.header-container {
+    padding-bottom:8px;
+    background:
+      linear-gradient(
+        to left, 
+        #F29D80 0%,
+        #F29D80 12%,
+        #E4626F 47%,
+        #E4626F 100%
+      )
+      left 
+      bottom   
+      no-repeat; 
+    background-size:100% 5px ;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+th.callout-inner.primary {
+    border: none;background-color: #D9DEE4; border-radius: 6px;
+}
